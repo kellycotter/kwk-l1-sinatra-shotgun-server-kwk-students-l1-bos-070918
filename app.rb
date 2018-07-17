@@ -5,11 +5,12 @@ class App < Sinatra::Base
   get '/' do 
     "Welcome to your app!!!!Hello!! "
   end
- get '/kitty'
+ get '/kitty' do
  "Hello Kitty"
  end
  
- get '/sushi'
+ get '/sushi' do
  "Hello Sushi!"
  end
+ 
 end
